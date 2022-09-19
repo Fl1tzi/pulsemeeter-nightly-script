@@ -67,9 +67,9 @@ echo "Installing using Pip"
 if [ "$arg1" == "no-sudo" ]
 then
 	echo "Installing without sudo rights."
-	pip install --upgrade --no-deps --force-reinstall $DIR
+	pip install --upgrade --force-reinstall $DIR
 else
-	sudo pip install --upgrade --no-deps --force-reinstall $DIR
+	sudo pip install --upgrade --force-reinstall $DIR
 fi
 
 echo
